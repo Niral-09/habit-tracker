@@ -3,13 +3,14 @@ import { Check, Flame, TrendingUp, Calendar, Award, ChevronLeft, ChevronRight } 
 
 const HabitTracker = () => {
   const defaultHabits = [
-    'Wake up 7 AM',
+    'Wake up 5 AM',
     'Make Bed',
-    'Sunscreen',
     'Gym',
-    'Walk 30 min',
-    'Journal',
-    'Meditate'
+    'Meditate 5 mins',
+    'Read 2 pages of Book',
+    'Flute',
+    'Complete Today\'s Learning Task',
+    'Write Daily Journal',
   ];
 
   const [habits, setHabits] = useState(defaultHabits);
